@@ -2,4 +2,4 @@ function route(pathname) {
     console.log('Routing request for ' + pathname);
 }
 
-exports.start();
+exports.route = route;
